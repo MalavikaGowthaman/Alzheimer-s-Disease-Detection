@@ -2,9 +2,10 @@ import os
 from classifier.constants import *
 from classifier.utils.common import read_yaml, create_directories
 from classifier.entity.config_entity import (DataIngestionConfig,
-                                             PrepareBaseModelConfig,
-                                             TrainingConfig,
-                                             EvaluationConfig)
+                                            #  PrepareBaseModelConfig,
+                                            #  TrainingConfig,
+                                            #  EvaluationConfig
+                                            )
 
 class ConfigurationManager:
     def __init__(
